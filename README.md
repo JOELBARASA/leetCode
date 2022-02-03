@@ -1,2 +1,2 @@
 # leetCode
-JavaScript LeetCode DSA
+JavaScript LeetCode Data Structures and Algorithms
