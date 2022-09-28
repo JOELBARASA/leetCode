@@ -14,3 +14,15 @@ let person = {
 
 person.fullName = 'Kelsey Israel';
 console.log(person);
+
+
+
+let circle = {
+    radius: 0,
+    set area(value) {
+        this.radius = value;
+    },
+    get area() {
+        console.log('Area: ' + (Math.PI * this.radius * this.radius));
+    }
+}
